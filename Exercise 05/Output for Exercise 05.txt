@@ -1,0 +1,53 @@
+Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Learning Python/Exercise 05/Exercise 05.py
+Exercise 05 - Vinh Nguyen - vinhhnguyen313@gmail.com
+March 24, 2020.
+This program simulates a falling object released from an airplane in level flight at constant speed.
+-------------
+Please enter the altitude (in feet) at which the object is dropped: 200
+Your altitude is 200.0
+
+Now please enter the airspeed of the aircraft when the object is dropped, in knots (nautical miles per hour): 50
+Your aircraft's airspeed is 303800.0
+
+t = 0.00, (x,y)=(0.00,200.00)
+t = 0.10, (x,y)=(30380.00,199.84)
+t = 0.20, (x,y)=(60760.00,199.36)
+t = 0.30, (x,y)=(91140.00,198.55)
+t = 0.40, (x,y)=(121520.00,197.43)
+t = 0.50, (x,y)=(151900.00,195.98)
+t = 0.60, (x,y)=(182280.00,194.21)
+t = 0.70, (x,y)=(212660.00,192.12)
+t = 0.80, (x,y)=(243040.00,189.71)
+t = 0.90, (x,y)=(273420.00,186.97)
+t = 1.00, (x,y)=(303800.00,183.91)
+t = 1.10, (x,y)=(334180.00,180.54)
+t = 1.20, (x,y)=(364560.00,176.84)
+t = 1.30, (x,y)=(394940.00,172.82)
+t = 1.40, (x,y)=(425320.00,168.47)
+t = 1.50, (x,y)=(455700.00,163.81)
+t = 1.60, (x,y)=(486080.00,158.82)
+t = 1.70, (x,y)=(516460.00,153.51)
+t = 1.80, (x,y)=(546840.00,147.88)
+t = 1.90, (x,y)=(577220.00,141.93)
+t = 2.00, (x,y)=(607600.00,135.66)
+t = 2.10, (x,y)=(637980.00,129.07)
+t = 2.20, (x,y)=(668360.00,122.15)
+t = 2.30, (x,y)=(698740.00,114.91)
+t = 2.40, (x,y)=(729120.00,107.35)
+t = 2.50, (x,y)=(759500.00,99.47)
+t = 2.60, (x,y)=(789880.00,91.27)
+t = 2.70, (x,y)=(820260.00,82.74)
+t = 2.80, (x,y)=(850640.00,73.89)
+t = 2.90, (x,y)=(881020.00,64.73)
+t = 3.00, (x,y)=(911400.00,55.23)
+t = 3.10, (x,y)=(941780.00,45.42)
+t = 3.20, (x,y)=(972160.00,35.29)
+t = 3.30, (x,y)=(1002540.00,24.83)
+t = 3.40, (x,y)=(1032920.00,14.06)
+t = 3.50, (x,y)=(1063300.00,2.96)
+t = 3.60, (x,y)=(1093680.00,-8.46)
+>>> 
