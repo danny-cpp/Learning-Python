@@ -1,0 +1,74 @@
+Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Python Exercises/Exercise 03/Exercise 03.py
+Exercise 03 - Vinh Nguyen - vinhhnguyen313@gmail.com
+March 21, 2020
+
+This program accepts numerical data from the keyboard and use it to compute gross weight and CoG position of a small aircraft.
+
+You will now enter your arm and weight values, remmember that there isa weight limit
+Please enter your first arm value: 34.15
+Please enter your first weight value: 1107
+
+The total weight of the system is: 1107.0lbs
+The Center of Gravity is: 34.15 inches from the reference point
+
+Please enter your second arm value: 39.12
+Please enter your second weight value: 340
+
+The total weight of the system is: 1447.0lbs
+The Center of Gravity is: 35.31779543883897 inches from the reference point
+
+Please enter your third arm value: 63.77
+Please enter your third weight value: 10
+
+The total weight of the system is: 1457.0lbs
+The Center of Gravity is: 35.513074811256 inches from the reference point
+
+Please enter your fourth arm value: 42.22
+Please enter your fourth weight value: 135
+
+The total weight of the system is: 1592.0lbs
+The Center of Gravity is: 36.081815326633155 inches from the reference point
+>>> 
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Python Exercises/Exercise 03/Exercise 03.py
+Exercise 03 - Vinh Nguyen - vinhhnguyen313@gmail.com
+March 21, 2020
+
+This program accepts numerical data from the keyboard and use it to compute gross weight and CoG position of a small aircraft.
+
+You will now enter your arm and weight values, remmember that there isa weight limit
+Please enter your first arm value: 2
+Please enter your first weight value: 30000
+
+The total weight of the system is: 30000.0lbs
+The Center of Gravity is: 2.0 inches from the reference point
+Warning: your weight value is outside of the appropriate range
+Warning: your CoG value is outside of the appropriate range
+
+Please enter your second arm value: 28
+Please enter your second weight value: 3822
+
+The total weight of the system is: 33822.0lbs
+The Center of Gravity is: 4.938087635266986 inches from the reference point
+Warning: your weight value is outside of the appropriate range
+Warning: your CoG value is outside of the appropriate range
+3
+Please enter your third arm value: 883
+Please enter your third weight value: 11
+
+The total weight of the system is: 33833.0lbs
+The Center of Gravity is: 5.223568705110395 inches from the reference point
+Warning: your weight value is outside of the appropriate range
+Warning: your CoG value is outside of the appropriate range
+
+Please enter your fourth arm value: 03
+Please enter your fourth weight value: 83
+
+The total weight of the system is: 33916.0lbs
+The Center of Gravity is: 5.218127137634155 inches from the reference point
+Warning: your weight value is outside of the appropriate range
+Warning: your CoG value is outside of the appropriate range
+>>> 

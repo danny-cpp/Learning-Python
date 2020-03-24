@@ -1,0 +1,12 @@
+Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18) 
+[Clang 6.0 (clang-600.0.57)] on darwin
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Python Exercises/Exercise 02/Exercise 02.py
+Exercise 02 - Vinh Nguyen - vinhhnguyen313@gmail.com
+March 19, 2020
+This program computes both the total weight and the location of the CoG of a small aircraft having four stations.
+
+The total weight of the system is: 1592lbs
+The Center of Gravity is: 36.081815326633155 inches from reference point
+>>> 
