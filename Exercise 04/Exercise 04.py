@@ -59,6 +59,8 @@ print("Final Report::: ")
 print("There are "+str(stationAmt)+" stations in total")
 print("The total weight of the system is: " + str(sum(weight)) +"lbs")
 print("The center of gravity is "+str(cog)+" inches from the reference point")
+checkCoG(cog)
+checkWeight(cog,sum(weight))
 
 
     

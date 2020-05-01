@@ -2,75 +2,7 @@ Python 3.8.2 (v3.8.2:7b3ab5921f, Feb 24 2020, 17:52:18)
 [Clang 6.0 (clang-600.0.57)] on darwin
 Type "help", "copyright", "credits" or "license()" for more information.
 >>> 
-= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Python Exercises/Exercise 04/Exercise 04.py
-Exercise 04 - Vinh Nguyen - vinhhnguyen313@gmail.com
-March 23, 2020
-
-This program computes the gross weight and CG position for a larger aircraft
-which may have many stations, and where the number of stations might vary
-
-You will now enter your arm and weight values, remmember that there is
-a weight limit
-
-First, please enter the number of stations: 2
-Please enter weight and arm (in weight,arm format) for station 1 : 365,39.12
-You have successfully entered your weight and arm as 365.0lbs and 39.12inches.
-The total weight of the system is: 365.0lbs
-The center of gravity is 39.12 inches from the reference point
-Warning: your CoG value is too far forward
-
-Please enter weight and arm (in weight,arm format) for station 2 : 90, 42.22
-You have successfully entered your weight and arm as 90.0lbs and 42.22inches.
-The total weight of the system is: 455.0lbs
-The center of gravity is 39.73318681318681 inches from the reference point
-Warning: your CoG value is too far forward
-
-Final Report::: 
-There are 2 stations in total
-The total weight of the system is: 455.0lbs
-The center of gravity is 39.73318681318681 inches from the reference point
->>> 
-= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Python Exercises/Exercise 04/Exercise 04.py
-Exercise 04 - Vinh Nguyen - vinhhnguyen313@gmail.com
-March 23, 2020
-
-This program computes the gross weight and CG position for a larger aircraft
-which may have many stations, and where the number of stations might vary
-
-You will now enter your arm and weight values, remmember that there is
-a weight limit
-
-First, please enter the number of stations: 4
-Please enter weight and arm (in weight,arm format) for station 1 : 191, 39.12
-You have successfully entered your weight and arm as 191.0lbs and 39.12inches.
-The total weight of the system is: 191.0lbs
-The center of gravity is 39.12 inches from the reference point
-Warning: your CoG value is too far forward
-
-Please enter weight and arm (in weight,arm format) for station 2 : 135, 42.22
-You have successfully entered your weight and arm as 135.0lbs and 42.22inches.
-The total weight of the system is: 326.0lbs
-The center of gravity is 40.40374233128834 inches from the reference point
-Warning: your CoG value is too far forward
-
-Please enter weight and arm (in weight,arm format) for station 3 : 99, 63.77
-You have successfully entered your weight and arm as 99.0lbs and 63.77inches.
-The total weight of the system is: 425.0lbs
-The center of gravity is 45.846705882352936 inches from the reference point
-Warning: your CoG value is too far forward
-
-Please enter weight and arm (in weight,arm format) for station 4 : 39, 85
-You have successfully entered your weight and arm as 39.0lbs and 85.0inches.
-The total weight of the system is: 464.0lbs
-The center of gravity is 49.13760775862069 inches from the reference point
-Warning: your CoG value is too far forward
-
-Final Report::: 
-There are 4 stations in total
-The total weight of the system is: 464.0lbs
-The center of gravity is 49.13760775862069 inches from the reference point
->>> 
-= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Python Exercises/Exercise 04/Exercise 04.py
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Learning Python/Exercise 04/Exercise 04.py
 Exercise 04 - Vinh Nguyen - vinhhnguyen313@gmail.com
 March 23, 2020
 
@@ -81,26 +13,106 @@ You will now enter your arm and weight values, remmember that there is
 a weight limit
 
 First, please enter the number of stations: 3
-Please enter weight and arm (in weight,arm format) for station 1 : 191,39.12
-You have successfully entered your weight and arm as 191.0lbs and 39.12inches.
-The total weight of the system is: 191.0lbs
-The center of gravity is 39.12 inches from the reference point
-Warning: your CoG value is too far forward
+Please enter weight and arm (in weight,arm format) for station 1 : 1107.3,34.15
+You have successfully entered your weight and arm as 1107.3lbs and 34.15inches.
+The total weight of the system is: 1107.3lbs
+The center of gravity is 34.15 inches from the reference point
 
-Please enter weight and arm (in weight,arm format) for station 2 : 135,42.22
-You have successfully entered your weight and arm as 135.0lbs and 42.22inches.
-The total weight of the system is: 326.0lbs
-The center of gravity is 40.40374233128834 inches from the reference point
-Warning: your CoG value is too far forward
+Please enter weight and arm (in weight,arm format) for station 2 : 365,39.12
+You have successfully entered your weight and arm as 365.0lbs and 39.12inches.
+The total weight of the system is: 1472.3lbs
+The center of gravity is 35.38211981253821 inches from the reference point
 
-Please enter weight and arm (in weight,arm format) for station 3 : 173,63.77
-You have successfully entered your weight and arm as 173.0lbs and 63.77inches.
-The total weight of the system is: 499.0lbs
-The center of gravity is 48.50466933867736 inches from the reference point
-Warning: your CoG value is too far forward
+Please enter weight and arm (in weight,arm format) for station 3 : 90,42.22
+You have successfully entered your weight and arm as 90.0lbs and 42.22inches.
+The total weight of the system is: 1562.3lbs
+The center of gravity is 35.77603213211292 inches from the reference point
 
 Final Report::: 
 There are 3 stations in total
-The total weight of the system is: 499.0lbs
-The center of gravity is 48.50466933867736 inches from the reference point
+The total weight of the system is: 1562.3lbs
+The center of gravity is 35.77603213211292 inches from the reference point
+>>> 
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Learning Python/Exercise 04/Exercise 04.py
+Exercise 04 - Vinh Nguyen - vinhhnguyen313@gmail.com
+March 23, 2020
+
+This program computes the gross weight and CG position for a larger aircraft
+which may have many stations, and where the number of stations might vary
+
+You will now enter your arm and weight values, remmember that there is
+a weight limit
+
+First, please enter the number of stations: 5
+Please enter weight and arm (in weight,arm format) for station 1 : 1107.3,34.15
+You have successfully entered your weight and arm as 1107.3lbs and 34.15inches.
+The total weight of the system is: 1107.3lbs
+The center of gravity is 34.15 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 2 : 191,39.12
+You have successfully entered your weight and arm as 191.0lbs and 39.12inches.
+The total weight of the system is: 1298.3lbs
+The center of gravity is 34.881163829623354 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 3 : 135,42.22
+You have successfully entered your weight and arm as 135.0lbs and 42.22inches.
+The total weight of the system is: 1433.3lbs
+The center of gravity is 35.57239586967138 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 4 : 99,63.77
+You have successfully entered your weight and arm as 99.0lbs and 63.77inches.
+The total weight of the system is: 1532.3lbs
+The center of gravity is 37.39420805325328 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 5 : 39,85
+You have successfully entered your weight and arm as 39.0lbs and 85.0inches.
+The total weight of the system is: 1571.3lbs
+The center of gravity is 38.57579392859416 inches from the reference point
+Warning: your CoG value is too far forward
+
+Final Report::: 
+There are 5 stations in total
+The total weight of the system is: 1571.3lbs
+The center of gravity is 38.57579392859416 inches from the reference point
+Warning: your CoG value is too far forward
+>>> 
+= RESTART: /Users/vinhnguyen/Desktop/Vinh/LIGO Project/Learning Python/Exercise 04/Exercise 04.py
+Exercise 04 - Vinh Nguyen - vinhhnguyen313@gmail.com
+March 23, 2020
+
+This program computes the gross weight and CG position for a larger aircraft
+which may have many stations, and where the number of stations might vary
+
+You will now enter your arm and weight values, remmember that there is
+a weight limit
+
+First, please enter the number of stations: 4
+Please enter weight and arm (in weight,arm format) for station 1 : 1107.3,34.15
+You have successfully entered your weight and arm as 1107.3lbs and 34.15inches.
+The total weight of the system is: 1107.3lbs
+The center of gravity is 34.15 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 2 : 191,39.12
+You have successfully entered your weight and arm as 191.0lbs and 39.12inches.
+The total weight of the system is: 1298.3lbs
+The center of gravity is 34.881163829623354 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 3 : 135,42.22
+You have successfully entered your weight and arm as 135.0lbs and 42.22inches.
+The total weight of the system is: 1433.3lbs
+The center of gravity is 35.57239586967138 inches from the reference point
+
+Please enter weight and arm (in weight,arm format) for station 4 : 173,63.77
+You have successfully entered your weight and arm as 173.0lbs and 63.77inches.
+The total weight of the system is: 1606.3lbs
+The center of gravity is 38.609303990537256 inches from the reference point
+Warning: your CoG value is too far forward
+Warning: your weight value is outside of the appropriate range, too much
+
+Final Report::: 
+There are 4 stations in total
+The total weight of the system is: 1606.3lbs
+The center of gravity is 38.609303990537256 inches from the reference point
+Warning: your CoG value is too far forward
+Warning: your weight value is outside of the appropriate range, too much
 >>> 

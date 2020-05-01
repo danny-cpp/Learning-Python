@@ -16,7 +16,7 @@ the object is dropped: "))
 print("Your altitude is "+ str(A)+"\n")
 
 vx0 = float(input("Now please enter the airspeed of the aircraft \
-when the object is dropped, in knots (nautical miles per hour): "))*6076
+when the object is dropped, in knots (nautical miles per hour): "))*6076/60/60
 print("Your aircraft's airspeed is "+ str(vx0)+"\n")
 
 x0 = 0
@@ -27,7 +27,7 @@ y = []
 x = []
           
 while(t<=30.0):
-    if(len(y)!=0 and not y[-1]>=0):
+    if((len(y)!=0 and not y[-1]>=0) or ( (A - 1/2*(32.17)*t**2)<0)):
         break
     y.append( (A - 1/2*(32.17)*t**2) )
     x.append(vx0*t)
