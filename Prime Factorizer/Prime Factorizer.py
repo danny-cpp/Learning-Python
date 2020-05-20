@@ -28,6 +28,8 @@ def factors(current):
         if (current % k == 0):
             factorlist.append(k);
             current = reduce(current, k);
+        
+        k += 2;
 
     # if the list is still empty, it means the number itself is a prime
     if (len(factorlist) == 0):
