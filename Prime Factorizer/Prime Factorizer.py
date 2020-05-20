@@ -24,16 +24,14 @@ def factors(current):
         current = reduce(current, 3);
 
     k = 5; # Start at 5 from now on.
-    while (k*k <= current):
+    while (k*k <= copy_of_current):
         if (current % k == 0):
             factorlist.append(k);
             current = reduce(current, k);
-        
         k += 2;
 
-    # if the list is still empty, it means the number itself is a prime
-    if (len(factorlist) == 0):
-        factorlist.append(copy_of_current);
+    # Last factor of the number is itself a prime
+    factorlist.append(int(current));
 
     return factorlist;
             
@@ -44,11 +42,12 @@ print(factors(25))
 print(factors(100))
 print(factors(81))
 print(factors(27))
+print(factors(125700))
 
 #This lists all the prime up to a number of choice
-primes = []
-for n in range(2,100):
-    if len(factors(n))==1:
-        primes.append(n)
+# primes = []
+# for n in range(2,100):
+#     if len(factors(n))==1:
+#         primes.append(n)
         
-print(primes);
+# print(primes);
